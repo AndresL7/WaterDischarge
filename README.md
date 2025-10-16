@@ -9,29 +9,29 @@ This project implements a 2D water discharge simulation using Smoothed Particle 
 
   Physics Modeling:
   
-    *Implements Navier-Stokes equations for fluid dynamics
+    Implements Navier-Stokes equations for fluid dynamics
     
-    *Applies gravitational forces
+    Applies gravitational forces
     
-    *Handles boundary interactions with walls
+    Handles boundary interactions with walls
     
-    *Computes particle density with kernel smoothing functions
+    Computes particle density with kernel smoothing functions
     
-    *Uses equation of state (EOS) for pressure calculation
+    Uses equation of state (EOS) for pressure calculation
     
-    *Incorporates XSPH velocity correction for stability
+    Incorporates XSPH velocity correction for stability
 
 **Technical Implementation**
 
-  *Efficient nearest-neighbor search using grid-based linked list approach
+  Efficient nearest-neighbor search using grid-based linked list approach
   
-  *Leap-frog integration scheme for time evolution
+  Leap-frog integration scheme for time evolution
   
-  *Custom boundary handling to prevent particle penetration
+  Custom boundary handling to prevent particle penetration
   
-  *Adaptive density normalization for improved accuracy
+  Adaptive density normalization for improved accuracy
   
-  *C implementation with optimized data structures
+  C implementation with optimized data structures
 
 **Visualization**
 
